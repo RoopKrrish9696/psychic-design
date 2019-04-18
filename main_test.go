@@ -139,3 +139,5 @@ func TestStaticFileServer(t *testing.T) {
 	if expectedContentType != contentType {
 		t.Errorf("Wrong content type, expected %s, got %s", expectedContentType, contentType)
 	}
+
+}
